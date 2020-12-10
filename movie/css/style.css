@@ -1,0 +1,205 @@
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: #43444d;
+}
+
+.navbar {
+  padding: 0 16%;
+  max-width: 100%;
+  font-size: 1.25rem;
+  background-color: #ebebed;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 8px solid #43444d;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #effad3;
+  opacity: .8;
+}
+
+.nav-item {
+  padding: 0 5%;
+}
+
+.log-in-btn, .add-movie-btn, .log-out-btn, .sign-up-btn{
+  margin: 1%;
+  background-color: #43444d;
+  border: none;
+}
+
+.login-btn, .add-movie-btn, .log-out-btn, .sign-up-btn {
+  color: #fff;
+}
+
+.login-btn:hover {
+  text-decoration: none;
+  color: #fff;
+}
+
+.add-movie-link {
+  color: #fff;
+}
+
+.add-movie-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.main-container {
+  padding-top: 3rem;
+  background-color: #ebebed;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.margin-top {
+  margin-top: 4rem;
+}
+
+.all-movies-title {
+  padding: 2% 0 6%;
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 0 0 5% 0;
+}
+
+.poster-container {
+  padding: 0;
+}
+
+.category-title {
+  color: #000;
+}
+
+.category-title:hover {
+  text-decoration: none;
+  color: #000;
+  opacity: .7;
+}
+
+.movieCards {
+  margin: 7% 3% 0;
+  color: black;
+}
+
+
+
+.card {
+  border: none;
+  position: relative;
+}
+
+.card-deck {
+  padding: 3%;
+}
+
+.card-img-category {
+  max-width: 70%;
+  padding: 0 0 20% 0;
+}
+
+.card-img-top:hover, .card-img-category:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+  opacity: .8;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.content {
+  margin: 7% 3% 0;
+  color: black;
+  text-align: center;
+}
+
+.content-movie {
+    max-width: 100%;
+    min-height: 100vh;
+    padding: 8% 5% 0;
+    overflow: hidden;
+    margin: 0 3%;
+    color: black;
+}
+
+.content-movie img {
+    margin-right: 3%;
+    float: left;
+    max-width: 35%;
+}
+
+/* ADD MOVIE FORM STYLE */
+
+.title-addmovie {
+  text-align: center;
+}
+
+.form-addmovie {
+  width: 100%;
+  max-width: 50%;
+  margin: auto;
+}
+
+.form-addmovie .form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-addmovie .form-control:focus {
+  z-index: 2;
+}
+.form-addmovie input[type="text"] {
+  margin-bottom: 10px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-addmovie input[type="url"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.add-movie {
+  margin: 20px 0 40px;
+  width: 50%;
+  font-size: 1.25rem;
+}
+
+.admin-table {
+  max-width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.delete-movie {
+  background-color: #b01515;
+  border: none;
+}
+
+.delete-movie:hover {
+  background-color: #b01515;
+  opacity: .8;
+}
+
+.trashcan {
+  color: #fff;
+}
+
+.txt-center {
+  text-align: center;
+}
+
+th {
+  font-size: 1.25rem;
+}
+
+td {
+  font-size: 1.1rem;
+}

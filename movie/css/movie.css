@@ -1,0 +1,11 @@
+.content {
+    max-width: 100%;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.content img {
+    margin-right: 15px;
+    float: left;
+    max-width: 35%;
+}

@@ -1,0 +1,160 @@
+body {
+  background-color: #aeffdf;
+}
+
+
+
+.navbar {
+  padding: 1% 16%;
+  font-size: 1.25rem;
+  background-color: #2d6187;
+}
+
+.navbar-dark .navbar-nav .nav-link{
+  color: #effad3;
+  opacity: .8;
+}
+
+.nav-item {
+  padding: 0 5%;
+}
+
+.sign-in {
+  margin: 1%;
+}
+
+.login-btn {
+  color: #fff;
+}
+
+.login-btn:hover {
+  text-decoration: none;
+  color: #fff;
+  opacity: .8;
+}
+
+.all-movies-title {
+  padding: 2% 0 6%;
+  font-size: 2.5rem;
+}
+
+.container {
+  padding: 0 0 5% 0;
+}
+
+.poster-container {
+  padding: 0;
+}
+
+.card-img-top {
+  max-width: 70%;
+  padding: 0 0 20% 0;
+}
+
+.card-img-top:hover {
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+  opacity: .8;
+  cursor: pointer;
+  transition-duration: .5s;
+}
+
+.add-movie {
+  margin: 10%;
+}
+
+.add-movie-link {
+  text-decoration: none;
+  color: #fff;
+}
+
+.add-movie-link:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+
+
+.carousel-inner img {
+/*  -webkit-filter: grayscale(90%);
+  filter: grayscale(90%);*/ /* make all photos black and white */
+  max-width: 100%;
+  margin: auto;
+}
+
+.carousel-caption h3 {
+  color: #fff !important;
+}
+
+@media (max-width: 600px) {
+  .carousel-caption {
+    display: none; /* Hide the carousel text when the screen is less than 600 pixels wide */
+  }
+
+
+}
+
+.footer {
+  background-color: #2d6187;
+  color: #effad3;
+  text-align: center;
+}
+
+.footer>.container {
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.main-container {
+  padding-top: 3rem;
+  background-color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+.valami {
+  margin: 7% 3% 0;
+  color: black;
+  text-align: center;
+}
+
+
+
+
+.card {
+  border: none;
+  position: relative;
+}
+
+.card-deck {
+  padding: 3%;
+}
+
+.last-img {
+  opacity: .65;
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.last-img:hover {
+  opacity: .9;
+}
+
+
+.more-icon {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  right: 25%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
